@@ -1,0 +1,98 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/root/sunyue/ncnn/src/allocator.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/allocator.cpp.o"
+  "/root/sunyue/ncnn/src/benchmark.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/benchmark.cpp.o"
+  "/root/sunyue/ncnn/src/blob.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/blob.cpp.o"
+  "/root/sunyue/ncnn/src/command.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/command.cpp.o"
+  "/root/sunyue/ncnn/src/cpu.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/cpu.cpp.o"
+  "/root/sunyue/ncnn/src/gpu.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/gpu.cpp.o"
+  "/root/sunyue/ncnn/src/layer.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer.cpp.o"
+  "/root/sunyue/ncnn/src/layer/absval.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/absval.cpp.o"
+  "/root/sunyue/ncnn/src/layer/batchnorm.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o"
+  "/root/sunyue/ncnn/src/layer/bias.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/bias.cpp.o"
+  "/root/sunyue/ncnn/src/layer/binaryop.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/binaryop.cpp.o"
+  "/root/sunyue/ncnn/src/layer/bnll.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/bnll.cpp.o"
+  "/root/sunyue/ncnn/src/layer/cast.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/cast.cpp.o"
+  "/root/sunyue/ncnn/src/layer/clip.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/clip.cpp.o"
+  "/root/sunyue/ncnn/src/layer/concat.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/concat.cpp.o"
+  "/root/sunyue/ncnn/src/layer/convolution.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/convolution.cpp.o"
+  "/root/sunyue/ncnn/src/layer/convolutiondepthwise.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o"
+  "/root/sunyue/ncnn/src/layer/crop.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/crop.cpp.o"
+  "/root/sunyue/ncnn/src/layer/deconvolution.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o"
+  "/root/sunyue/ncnn/src/layer/deconvolutiondepthwise.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o"
+  "/root/sunyue/ncnn/src/layer/dequantize.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/dequantize.cpp.o"
+  "/root/sunyue/ncnn/src/layer/detectionoutput.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o"
+  "/root/sunyue/ncnn/src/layer/dropout.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/dropout.cpp.o"
+  "/root/sunyue/ncnn/src/layer/eltwise.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/eltwise.cpp.o"
+  "/root/sunyue/ncnn/src/layer/elu.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/elu.cpp.o"
+  "/root/sunyue/ncnn/src/layer/embed.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/embed.cpp.o"
+  "/root/sunyue/ncnn/src/layer/exp.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/exp.cpp.o"
+  "/root/sunyue/ncnn/src/layer/expanddims.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/expanddims.cpp.o"
+  "/root/sunyue/ncnn/src/layer/flatten.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/flatten.cpp.o"
+  "/root/sunyue/ncnn/src/layer/innerproduct.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o"
+  "/root/sunyue/ncnn/src/layer/input.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/input.cpp.o"
+  "/root/sunyue/ncnn/src/layer/instancenorm.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o"
+  "/root/sunyue/ncnn/src/layer/interp.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/interp.cpp.o"
+  "/root/sunyue/ncnn/src/layer/log.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/log.cpp.o"
+  "/root/sunyue/ncnn/src/layer/lrn.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/lrn.cpp.o"
+  "/root/sunyue/ncnn/src/layer/memorydata.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/memorydata.cpp.o"
+  "/root/sunyue/ncnn/src/layer/mvn.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/mvn.cpp.o"
+  "/root/sunyue/ncnn/src/layer/normalize.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/normalize.cpp.o"
+  "/root/sunyue/ncnn/src/layer/packing.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/packing.cpp.o"
+  "/root/sunyue/ncnn/src/layer/padding.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/padding.cpp.o"
+  "/root/sunyue/ncnn/src/layer/permute.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/permute.cpp.o"
+  "/root/sunyue/ncnn/src/layer/pooling.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/pooling.cpp.o"
+  "/root/sunyue/ncnn/src/layer/power.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/power.cpp.o"
+  "/root/sunyue/ncnn/src/layer/prelu.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/prelu.cpp.o"
+  "/root/sunyue/ncnn/src/layer/priorbox.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/priorbox.cpp.o"
+  "/root/sunyue/ncnn/src/layer/proposal.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/proposal.cpp.o"
+  "/root/sunyue/ncnn/src/layer/psroipooling.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o"
+  "/root/sunyue/ncnn/src/layer/quantize.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/quantize.cpp.o"
+  "/root/sunyue/ncnn/src/layer/reduction.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/reduction.cpp.o"
+  "/root/sunyue/ncnn/src/layer/relu.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/relu.cpp.o"
+  "/root/sunyue/ncnn/src/layer/reorg.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/reorg.cpp.o"
+  "/root/sunyue/ncnn/src/layer/requantize.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/requantize.cpp.o"
+  "/root/sunyue/ncnn/src/layer/reshape.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/reshape.cpp.o"
+  "/root/sunyue/ncnn/src/layer/roipooling.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/roipooling.cpp.o"
+  "/root/sunyue/ncnn/src/layer/scale.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/scale.cpp.o"
+  "/root/sunyue/ncnn/src/layer/shufflechannel.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o"
+  "/root/sunyue/ncnn/src/layer/sigmoid.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o"
+  "/root/sunyue/ncnn/src/layer/slice.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/slice.cpp.o"
+  "/root/sunyue/ncnn/src/layer/softmax.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/softmax.cpp.o"
+  "/root/sunyue/ncnn/src/layer/split.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/split.cpp.o"
+  "/root/sunyue/ncnn/src/layer/squeeze.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/squeeze.cpp.o"
+  "/root/sunyue/ncnn/src/layer/tanh.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/tanh.cpp.o"
+  "/root/sunyue/ncnn/src/layer/threshold.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/threshold.cpp.o"
+  "/root/sunyue/ncnn/src/layer/unaryop.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/unaryop.cpp.o"
+  "/root/sunyue/ncnn/src/layer/x86/convolution_x86.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/x86/convolution_x86.cpp.o"
+  "/root/sunyue/ncnn/src/layer/x86/convolutiondepthwise_x86.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/x86/convolutiondepthwise_x86.cpp.o"
+  "/root/sunyue/ncnn/src/layer/yolodetectionoutput.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o"
+  "/root/sunyue/ncnn/src/layer/yolov3detectionoutput.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o"
+  "/root/sunyue/ncnn/src/mat.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/mat.cpp.o"
+  "/root/sunyue/ncnn/src/mat_pixel.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/mat_pixel.cpp.o"
+  "/root/sunyue/ncnn/src/mat_pixel_resize.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o"
+  "/root/sunyue/ncnn/src/modelbin.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/modelbin.cpp.o"
+  "/root/sunyue/ncnn/src/net.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/net.cpp.o"
+  "/root/sunyue/ncnn/src/opencv.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/opencv.cpp.o"
+  "/root/sunyue/ncnn/src/paramdict.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/paramdict.cpp.o"
+  "/root/sunyue/ncnn/src/pipeline.cpp" "/root/sunyue/ncnn/build/src/CMakeFiles/ncnn.dir/pipeline.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../src"
+  "src"
+  "../src/layer"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

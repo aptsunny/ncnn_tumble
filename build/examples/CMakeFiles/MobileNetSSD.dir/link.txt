@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/MobileNetSSD.dir/MobileNetSSD.cpp.o  -o MobileNetSSD -Wl,-rpath,/usr/local/lib ../src/libncnn.a /usr/local/lib/libopencv_highgui.so.2.4.9 /usr/local/lib/libopencv_imgproc.so.2.4.9 -lgomp -lpthread /usr/local/lib/libopencv_core.so.2.4.9 

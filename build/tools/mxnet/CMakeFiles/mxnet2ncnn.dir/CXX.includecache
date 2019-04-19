@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/sunyue/ncnn/tools/mxnet/mxnet2ncnn.cpp
+stdio.h
+-
+stdint.h
+-
+string.h
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+
